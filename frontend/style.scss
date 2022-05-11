@@ -6,6 +6,9 @@
 
     #menu-btn {
         position: fixed;
+
+        z-index: 100;
+
         top: 0;
         right: 0;
 
@@ -55,3 +58,39 @@
         }
     }
 }
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+
+    z-index: 99;
+
+    top: 0;
+    right: 0px;
+
+    width: 300px;
+    height: 100vh;
+
+    padding: 40px;
+
+    background-color: #000000;
+    color: #ffffff;
+
+    a {
+        display: block;
+
+        margin-bottom: 20px;
+    }
+}
+
+
+/*hf: alapértelmezetten: right -300 pixel. Ha rákattintunk a menü gombra, akkor megkapja a clicked classnevet, akkor a right: 0, és mindez animálódjon.
+
+utánanézni:
+querySelector
+querySelectorAll
+for*/

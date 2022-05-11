@@ -1,4 +1,4 @@
-const beers = {
+const beers = { //kulcsértékpárok: id, logo, button, cards
 	id: "beers",
 	logo: "Best Beers",
 	button: "details",
