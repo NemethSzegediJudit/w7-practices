@@ -32,7 +32,6 @@ const beerNavComponent = function (inner) {
 }
 
 const menuButtonCklickEvent = function (event) {
-
     event.currentTarget.closest("#root").classList.toggle("menu-opened");
 }
 
