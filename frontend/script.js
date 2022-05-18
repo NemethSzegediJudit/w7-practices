@@ -31,7 +31,7 @@ const beerNavComponent = function (inner) {
     `
 }
 
-const menuButtonCklickEvent = function (event) {
+const menuButtonClickEvent = function (event) {
     event.currentTarget.closest("#root").classList.toggle("menu-opened");
 }
 
@@ -49,7 +49,7 @@ const loadEvent = function () {
 
     const menuButtonEelement = document.getElementById("menu-btn");
 
-    menuButtonEelement.addEventListener("click", menuButtonCklickEvent);
+    menuButtonEelement.addEventListener("click", menuButtonClickEvent);
 
     let beerSections = "";
     for (const beer of beers.cards) {
